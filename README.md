@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
@@ -29,7 +28,3 @@ Example usage:
 https://blabla-image-search.herokuapp.com/search/funny%20cats
 https://blabla-image-search.herokuapp.com/search/funny%20cats/2
 https://blabla-image-search.herokuapp.com/recent/
-=======
-# Image-Search
-An image search using Bing's API
->>>>>>> 722f4314087e1f7d6db1354dc5e74b2899826105
