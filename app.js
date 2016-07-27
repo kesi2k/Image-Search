@@ -18,10 +18,10 @@ var config = require('./config');
 //Create a connection to MongoDB
 var mongoose = require('mongoose');
 
-//mongoose.connect('mongodb://' + config.db.host + '/' + config.db.name);
+mongoose.connect('mongodb://' + config.db.host + '/' + config.db.name);
 
 
-mongoose.connect('mongodb://heroku_3jc55dnn:pn7quodffe0klos3seo22oj8l9@ds029725.mlab.com:29725/heroku_3jc55dnn');
+//mongoose.connect('mongodb://heroku_3jc55dnn:pn7quodffe0klos3seo22oj8l9@ds029725.mlab.com:29725/heroku_3jc55dnn');
 
 
 //Import function to list query history db

@@ -8,6 +8,7 @@ function image_query(query, page, request, response){
 
 var search = new Search('G3JfBkfPtCI0PIGavqJ83q9X5+3nMtamNoycWml7ntY');
 var resultsArr = [];
+var resultArr_string = [];
 
 console.log(page)
 
@@ -30,9 +31,12 @@ search.images(query,
    //console.log("This is the url: ", util.inspect(results[i].url));
     //console.log(util.inspect(results,  {colors: true, depth: null}));
     }
-    return response.send(resultsArr);
+    resultArr_string = JSON.stringify(resultsArr).replace(/,/g,'<br/>')
+    
+   // console.log(resultArr_string);
+    
+  return response.send(resultArr_string);
 //console.log("This is the inner function results:", results_);
-
 });
 
 //console.log("This is outer function access:",resultsArr);  
